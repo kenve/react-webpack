@@ -1,5 +1,10 @@
 # react-webpack
 
+## Demo说明
+1. [Demo01](demo01/) webpack和react 整合开发的 HelloWorld Demo , 也可作为同类项目的Starter Kit。
+2. [Demo02](demo02/) 使用ES6的`Promise`搜索Github用户信息,并且展示出来搜索出来的信息,具体查看该[Demo](demo02/)的README。
+3. [Demo03](demo03/) 列表内容的增删改查的例子。
+
 ## 初始化项目
 
 ```bash
@@ -253,7 +258,3 @@ output: {
   filename: '[name].[hash].js'
 },
 ```
-
-1. [Demo01](demo01/) webpack和react 整合开发的 HelloWorld Demo , 也可作为同类项目的Starter Kit。
-2. [Demo02](demo02/) 使用ES6的`Promise`搜索Github用户信息,并且展示出来搜索出来的信息,具体查看该[Demo](demo02/)的README。
-3. [Demo03](demo03/) 列表内容的增删改查的例子。
