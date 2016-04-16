@@ -22,6 +22,7 @@ export default class App extends React.Component {
         }
       ]
     };
+    //
     this.addNote=this.addNote.bind(this);
     this.deleteNote=this.deleteNote.bind(this);
     this.editNote=this.editNote.bind(this);
