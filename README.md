@@ -258,3 +258,116 @@ output: {
   filename: '[name].[hash].js'
 },
 ```
+
+
+
+
+
+
+
+
+Directory per Concept
+
+```
+.
+├── actions
+│   ├── LaneActions.js
+│   └── NoteActions.js
+├── components
+│   ├── App.jsx
+│   ├── Editable.jsx
+│   ├── Lane.jsx
+│   ├── Lanes.jsx
+│   ├── Note.jsx
+│   └── Notes.jsx
+├── constants
+│   └── itemTypes.js
+├── index.jsx
+├── libs
+│   ├── alt.js
+│   ├── persist.js
+│   └── storage.js
+├── main.css
+└── stores
+    ├── LaneStore.js
+    └── NoteStore.js
+```
+
+Directory per Component
+```
+
+├── actions
+│   ├── LaneActions.js
+│   └── NoteActions.js
+├── components
+│   ├── App
+│   │   ├── App.jsx
+│   │   ├── app.css
+│   │   ├── app_test.jsx
+│   │   └── index.js
+│   ├── Editable
+│   │   ├── Editable.jsx
+│   │   ├── editable.css
+│   │   ├── editable_test.jsx
+│   │   └── index.js
+...
+│   └── index.js
+├── constants
+│   └── itemTypes.js
+├── index.jsx
+├── libs
+│   ├── alt.js
+│   ├── persist.js
+│   └── storage.js
+├── main.css
+└── stores
+    ├── LaneStore.js
+    └── NoteStore.js
+```
+
+Directory per View:
+```
+├── components
+│   ├── Note
+│   │   ├── Note.jsx
+│   │   ├── index.js
+│   │   ├── note.css
+│   │   └── note_test.jsx
+│   ├── Routes
+│   │   ├── Routes.jsx
+│   │   ├── index.js
+│   │   └── routes_test.jsx
+│   └── index.js
+...
+├── index.jsx
+├── main.css
+└── views
+    ├── Home
+    │   ├── Home.jsx
+    │   ├── home.css
+    │   ├── home_test.jsx
+    │   └── index.js
+    ├── Register
+    │   ├── Register.jsx
+    │   ├── index.js
+    │   ├── register.css
+    │   └── register_test.jsx
+    └── index.js
+```
+
+
+
+## Redux
+安装：
+```bash
+npm install --save react-redux
+```
+
+
+```bash
+npm i --save redux-thunk
+```
+安装react-router
+```bash
+npm install --save react-router
+```
