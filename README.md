@@ -182,6 +182,7 @@ npm install react react-dom --save
   }
 }
 ```
+*（该作者合并了`react-transform-hmr`和`react-hot-loader`的代码推出了：[react-hot-loader3](https://github.com/gaearon/react-hot-loader/pull/240)）
 ## 开发技巧
 #### 启用source-map
 现在的代码是合并以后的代码，不利于排错和定位，只需要在`webpack.config.js`中添加
@@ -258,7 +259,6 @@ output: {
   filename: '[name].[hash].js'
 },
 ```
-
 
 
 
