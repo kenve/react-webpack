@@ -264,12 +264,9 @@ output: {
 
 
 
-
-
-
 ## 项目目录结构
-Directory per Concept
 
+#### Directory per Concept
 ```
 .
 ├── actions
