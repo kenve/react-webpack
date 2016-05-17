@@ -292,7 +292,8 @@ output: {
     └── NoteStore.js
 ```
 
-Directory per Component
+#### Directory per Component
+
 ```
 
 ├── actions
