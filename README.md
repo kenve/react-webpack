@@ -325,7 +325,7 @@ output: {
     └── NoteStore.js
 ```
 
-#### Directory per View:
+#### Directory per View
 
 ```
 ├── components
@@ -357,7 +357,6 @@ output: {
 ```
 
 
-
 ## Redux
 安装：
 ```bash
@@ -372,3 +371,5 @@ npm i --save redux-thunk
 ```bash
 npm install --save react-router
 ```
+
+## react-router
