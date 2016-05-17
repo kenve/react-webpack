@@ -325,7 +325,8 @@ output: {
     └── NoteStore.js
 ```
 
-Directory per View:
+#### Directory per View:
+
 ```
 ├── components
 │   ├── Note
